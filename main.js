@@ -6,4 +6,8 @@ const installer = require('./lib/installer')
 // traverse dependancy tree looking for package conflicts and dependayies
 // build and return comands array
 
-return installer.execute({repository, constraints})
+try {
+  installer.execute({repository, constraints})
+} catch (e) {
+  console.error(e)
+}

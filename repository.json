@@ -3,12 +3,12 @@
   "version": "2.01",
   "size": 1672,
   "depends": [
-    ["B", "C"],
-    ["D>10.3.1"],
-    ["D<10.3.2"],
-    ["D=10.3.1"],
-    ["D>=10.3.1"],
-    ["D<=10.3.1"]
+    ["B"],
+    ["D=1"],
+    ["D>2"],
+    ["D<2"],
+    ["D>=3"],
+    ["D<=3"]
   ]
 }, {
   "name": "B",
@@ -27,17 +27,27 @@
   "depends": []
 }, {
   "name": "D",
-  "version": "10.3.1",
+  "version": "1",
   "size": 88847,
   "conflicts": ["B>=3.1"]
 },{
   "name": "D",
-  "version": "10.3.2",
+  "version": "1.1",
   "size": 88847,
   "conflicts": ["B>=3.1"]
 },{
   "name": "D",
-  "version": "11.3.2",
+  "version": "3",
+  "size": 88847,
+  "conflicts": ["B>=3.1"]
+},{
+  "name": "D",
+  "version": "4",
+  "size": 88847,
+  "conflicts": ["B>=3.1"]
+},{
+  "name": "D",
+  "version": "5",
   "size": 88847,
   "conflicts": ["B>=3.1"]
 }

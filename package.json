@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ukc-co663/dependency-solver-JordanHood/issues"
   },
-  "homepage": "https://github.com/ukc-co663/dependency-solver-JordanHood#readme"
+  "homepage": "https://github.com/ukc-co663/dependency-solver-JordanHood#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }

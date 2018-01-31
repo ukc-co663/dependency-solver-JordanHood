@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-node main.js $1 $2 $3
+ls -l 
+pwd
+
+# node main.js $1 $2 $3

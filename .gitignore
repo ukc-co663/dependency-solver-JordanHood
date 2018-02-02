@@ -56,8 +56,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
-commands.json
-initial.json
-repository.json
-constraints.json

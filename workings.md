@@ -1,4 +1,5 @@
 1. on init for each package
+
 ```
 {
   "name": "libc6",
@@ -12,7 +13,7 @@
 }
 ```
 
-2. get of the deps and sub all deps
+2. get of the deps and sub all deps 
 
 ```
  {

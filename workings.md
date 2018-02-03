@@ -13,7 +13,8 @@
 }
 ```
 
-2. get of the deps and sub all deps 
+2. get of the deps and sub all deps and build up list of all pkgs to install and all packages it conflicts with resolving all optional deps
+
 
 ```
  {

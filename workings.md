@@ -44,7 +44,7 @@
 ```
 
 3. need to resolve the optional deps on init
-
-```
-
-```
+* for each optional dep, see if there is a conflict
+  * if there is remove the optional dep
+  * if not, choose the one with the lesser cost
+* attach to all deps and update conflicts

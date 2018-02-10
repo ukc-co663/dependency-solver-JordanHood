@@ -10,8 +10,8 @@ Utils.filterDependencies = (dependencies) => {
 
 Utils.filterDependenciesOnVersion = (dependency, repo) => {
   return _.reduce(repo, (e, obj) => {
-    const objVersion = (obj.version.indexOf('.') === -1) ? parseInt(obj.version) : obj.version
-    const depVersion = (e.version.indexOf('.') === -1) ? parseInt(e.version) : e.version
+    const objVersion = (obj.version.indexOf('.') === -1 && e.version.indexOf('.') === -1) ? parseInt(obj.version) : obj.version
+    const depVersion = (e.version.indexOf('.') === -1 && obj.version.indexOf('.') === -1 ) ? parseInt(e.version) : e.version
     return comparisonOperators[dependency.comparator](objVersion, depVersion) ? obj : e
   }, {version: dependency.version})
 }

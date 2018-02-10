@@ -18,11 +18,8 @@ const fs = require('fs')
 // c.f. man, on init if conflicts go through each package deps and pick out conflicts, compare to main pkg deps and resolve
 
 // cyclic deps need to lookino
-installer.execute({repository, constraints})
-
-  // console.log('fin', stato.commands)
-  // fs.writeFile('./commands.json', JSON.stringify(stato.commands), err => {
-  //   if (err) return console.log(err)
-  // })
-
-
+const result = installer.execute({repository, constraints})
+console.log('fin', result)
+fs.writeFile('./commands.json', JSON.stringify(result.commands), err => {
+  if (err) return console.log(err)
+})

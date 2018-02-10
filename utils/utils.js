@@ -5,7 +5,7 @@ const Utils = module.exports = {}
 Utils.filterDependencies = (dependencies) => {
   return _.reduce(dependencies, (prev, obj, e) => {
     return comparisonOperators['>'](obj.version, prev.version) ? obj : prev
-  }, {version: '0'})
+  }, {version: '-10'})
 }
 
 Utils.filterDependenciesOnVersion = (dependency, repo) => {

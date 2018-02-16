@@ -1,21 +1,44 @@
-[ { "name" : "A"
-  , "version" : "1"
-  , "size" : 42
-  , "depends" : [["B", "C"]] }
-, { "name" : "B"
-  , "version" : "1"
-  , "size" : 10000
-  , "conflicts" : ["D"] }
-, { "name" : "C"
-  , "version" : "1"
-  , "size" : 1
-  , "conflicts" : ["D<4.3.5"] }
-, { "name" : "D"
-  , "version" : "4.3.5"
-  , "size" : 74 }
-, { "name" : "D"
-  , "version" : "4.3.6"
-  , "size" : 100 }
-, { "name" : "D"
-  , "version" : "4.2.9"
-  , "size" : 34 } ]
+[
+    {
+        "depends": [
+            [
+                "B", 
+                "C"
+            ]
+        ], 
+        "name": "A", 
+        "size": 42, 
+        "version": "1"
+    }, 
+    {
+        "conflicts": [
+            "D"
+        ], 
+        "name": "B", 
+        "size": 10000, 
+        "version": "1"
+    }, 
+    {
+        "conflicts": [
+            "D<4.3.5"
+        ], 
+        "name": "C", 
+        "size": 1, 
+        "version": "1"
+    }, 
+    {
+        "name": "D", 
+        "size": 74, 
+        "version": "4.3.5"
+    }, 
+    {
+        "name": "D", 
+        "size": 100, 
+        "version": "4.3.6"
+    }, 
+    {
+        "name": "D", 
+        "size": 34, 
+        "version": "4.2.9"
+    }
+]

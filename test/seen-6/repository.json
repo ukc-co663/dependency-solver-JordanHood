@@ -1,96 +1,95 @@
-[
-    {
-        "depends": [
-            [
-                "X2=1", 
-                "X3=1", 
-                "X4=1"
-            ], 
-            [
-                "X2=1", 
-                "X4=0", 
-                "X5=0"
-            ], 
-            [
-                "X3=0", 
-                "X4=0", 
-                "X5=0"
-            ], 
-            [
-                "X2=0", 
-                "X4=0", 
-                "X5=0"
-            ]
-        ], 
-        "name": "X1", 
-        "size": 3, 
-        "version": "1"
-    }, 
-    {
-        "name": "X2", 
-        "size": 3, 
-        "version": "1"
-    }, 
-    {
-        "name": "X3", 
-        "size": 3, 
-        "version": "1"
-    }, 
-    {
-        "depends": [
-            [
-                "X1=1", 
-                "X3=1", 
-                "X5=1"
-            ]
-        ], 
-        "name": "X4", 
-        "size": 3, 
-        "version": "1"
-    }, 
-    {
-        "name": "X5", 
-        "size": 3, 
-        "version": "1"
-    }, 
-    {
-        "conflicts": [
-            "X1>0"
-        ], 
-        "name": "X1", 
-        "size": 3, 
-        "version": "0"
-    }, 
-    {
-        "conflicts": [
-            "X2>0"
-        ], 
-        "name": "X2", 
-        "size": 3, 
-        "version": "0"
-    }, 
-    {
-        "conflicts": [
-            "X3>0"
-        ], 
-        "name": "X3", 
-        "size": 3, 
-        "version": "0"
-    }, 
-    {
-        "conflicts": [
-            "X4>0"
-        ], 
-        "name": "X4", 
-        "size": 3, 
-        "version": "0"
-    }, 
-    {
-        "conflicts": [
-            "X5>0"
-        ], 
-        "name": "X5", 
-        "size": 3, 
-        "version": "0"
-    }
+[{
+    "depends": [
+      [
+        "X2=1",
+        "X3=1",
+        "X4=1"
+      ],
+      [
+        "X2=1",
+        "X4=0",
+        "X5=0"
+      ],
+      [
+        "X3=0",
+        "X4=0",
+        "X5=0"
+      ],
+      [
+        "X2=0",
+        "X4=0",
+        "X5=0"
+      ]
+    ],
+    "name": "X1",
+    "size": 3,
+    "version": "1"
+  },
+  {
+    "name": "X2",
+    "size": 3,
+    "version": "1"
+  },
+  {
+    "name": "X3",
+    "size": 3,
+    "version": "1"
+  },
+  {
+    "depends": [
+      [
+        "X1=1",
+        "X3=1",
+        "X5=1"
+      ]
+    ],
+    "name": "X4",
+    "size": 3,
+    "version": "1"
+  },
+  {
+    "name": "X5",
+    "size": 3,
+    "version": "1"
+  },
+  {
+    "conflicts": [
+      "X1>0"
+    ],
+    "name": "X1",
+    "size": 3,
+    "version": "0"
+  },
+  {
+    "conflicts": [
+      "X2>0"
+    ],
+    "name": "X2",
+    "size": 3,
+    "version": "0"
+  },
+  {
+    "conflicts": [
+      "X3>0"
+    ],
+    "name": "X3",
+    "size": 3,
+    "version": "0"
+  },
+  {
+    "conflicts": [
+      "X4>0"
+    ],
+    "name": "X4",
+    "size": 3,
+    "version": "0"
+  },
+  {
+    "conflicts": [
+      "X5>0"
+    ],
+    "name": "X5",
+    "size": 3,
+    "version": "0"
+  }
 ]

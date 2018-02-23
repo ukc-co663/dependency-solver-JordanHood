@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node main.js test/seen-1/repository.json test/seen-1/initial.json test/seen-1/constraints.json",
-    "test": "./test/judge.py test/seen-1/repository.json test/seen-1/initial.json commands.json test/seen-1/constraints.json"
+    "start": "node main.js test/seen-9/repository.json test/seen-9/initial.json test/seen-9/constraints.json",
+    "test": "./test/judge.py test/seen-9/repository.json test/seen-9/initial.json commands.json test/seen-9/constraints.json"
   },
   "repository": {
     "type": "git",

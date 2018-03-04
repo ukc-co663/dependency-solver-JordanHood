@@ -1,38 +1,37 @@
-[
-    {
-        "depends": [
-            [
-                "B", 
-                "C"
-            ]
-        ], 
-        "name": "A", 
-        "size": 3, 
-        "version": "1"
-    }, 
-    {
-        "depends": [
-            [
-                "D"
-            ]
-        ], 
-        "name": "B", 
-        "size": 8, 
-        "version": "1"
-    }, 
-    {
-        "name": "C", 
-        "size": 10000, 
-        "version": "1"
-    }, 
-    {
-        "depends": [
-            [
-                "A"
-            ]
-        ], 
-        "name": "D", 
-        "size": 1, 
-        "version": "1"
-    }
+[{
+    "depends": [
+      [
+        "B",
+        "C"
+      ]
+    ],
+    "name": "A",
+    "size": 3,
+    "version": "1"
+  },
+  {
+    "depends": [
+      [
+        "D"
+      ]
+    ],
+    "name": "B",
+    "size": 8,
+    "version": "1"
+  },
+  {
+    "name": "C",
+    "size": 10000,
+    "version": "1"
+  },
+  {
+    "depends": [
+      [
+        "A"
+      ]
+    ],
+    "name": "D",
+    "size": 1,
+    "version": "1"
+  }
 ]
